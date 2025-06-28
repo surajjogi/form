@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+ 
+  animation: bgMove 30s infinite linear;
+  padding: 20px;
+  color: #333;
+}
+
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* main {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.1);
+  animation: fadeSlideUp 1.2s ease-in-out;
+} */
+main {
+    max-width: 700px;
+    margin: auto;
+    background: #fff; /* OLD white background */
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    animation: fadeSlideUp 1.2s ease-in-out;
+}
+
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: #ff8800;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="text"],
+select,
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+input[type="text"]:hover,
+select:hover,
+input[type="password"]:hover {
+  border-color: #ffa200;
+  box-shadow: 0 0 5px rgba(255,162,0,0.3);
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 25px;
+  border: none;
+  background-color: #ff8800;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e07000;
+}
+
+#submitbutton,
+#getpdfbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#sticy1,
+#sticy2 {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 10;
+  padding: 10px 0;
+}
+
+
+/* Parallax Section */
+.parallax {
+  height: 90vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.parallax-inner {
+  background-image: url('pexels-andre-furtado-43594-1264210.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  color: #fff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  animation: fadeSlideUp 1.2s ease-in-out;
+}
