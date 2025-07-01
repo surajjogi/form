@@ -1,122 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
 </head>
+
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="button.css">
-<body>
- 
-<section class="parallax">
-  <div class="parallax-inner">
-    <h1 class="parallax-title">Welcome to Photosopia</h1>
-  </div>
-</section>
 
-    
+<body>
+
+    <section class="parallax">
+        
+        <div class="parallax-inner">
+            <h1 class="parallax-title">Welcome to Fotographiya</h1>
+        </div>
+    </section>
+
+
     <main>
         <div id="section1">
-    <h1 id="sticy1">SECTION 1</h1>
+            <h1 id="sticy1">SECTION 1</h1>
 
-        <label for="pin">Enter PIN:</label>
-        <input type="password" id="pin" autocomplete="off">
-        <div id="submitbutton">
-        <button id="pinSubmit" class="glow-on-hover">Submit PIN</button>
-        </div>
+            <div class="reveal-item">
+                <label for="pin">Enter PIN:</label>
+                <input type="password" id="pin" autocomplete="off">
+            </div>
 
-        <br><br>
-        
-        <label for="pdfSelect">Choose a PDF:</label>
-        <select id="pdfSelect" disabled>
-            <option value="gold.pdf">Fotographiya Gold</option>
-            <option value="platinum.pdf">Fotographiya Platinum</option>
-            <option value="diamond.pdf">Fotographiya Diamond</option>
-        </select>
-        <br><br>
+            <div class="reveal-item" id="submitbutton">
+                <button id="pinSubmit" class="glow-on-hover">Submit PIN</button>
+            </div>
 
-        <label for="name">Regular Photographic Professionals</label>
-        <input type="text" name="Name" id="name" autocomplete="name" disabled>
-        <br>
-        <label for="name2">Regular Videographic Professionals</label>
-        <input type="text" name="Name" id="name2" autocomplete="name2" disabled>
-        <br>
-        <label for="name3">Candid Photographic Professionals</label>
-        <input type="text" name="Name" id="name3" autocomplete="name3" disabled>
-        <br>
-        <label for="name4">Cinematographic Professionals</label>
-        <input type="text" name="Name" id="name4" autocomplete="name4" disabled>
-        <br>
-        <label for="name5" id="label-name5">Dronographic Professionals</label>
-        <input type="text" name="Name" id="name5" autocomplete="name5" disabled>
-        <br>
-        <label for="name6">Cinematic Teaser</label>
-        <input type="text" name="Name" id="name6" autocomplete="name6" disabled>
-        <br>
-        <label for="name7">Cinematic Highlight</label>
-        <input type="text" name="Name" id="name7" autocomplete="name7" disabled>
-        <br>
-        <label for="name8">Ultra Creative Potraits</label>
-        <input type="text" name="Name" id="name8" autocomplete="name8" disabled>
-        <br>
-        <label for="name9">Family Picture</label>
-        <input type="text" name="Name" id="name9" autocomplete="name9" disabled>
-        <br>
-        <label for="name10" >Customize Handmade Album</label>
-        <input type="text" name="Name" id="name10" autocomplete="name10" disabled>
-        <br>
-<br>
-<br>
+            <div class="reveal-item">
+                <label for="pdfSelect">Choose a PDF:</label>
+                <select id="pdfSelect" disabled>
+                    <option value="gold.pdf">Fotographiya Gold</option>
+                    <option value="platinum.pdf">Fotographiya Platinum</option>
+                    <option value="diamond.pdf">Fotographiya Diamond</option>
+                </select>
+            </div>
 
-        </div>
+            <div class="reveal-item">
+                <label for="name">Regular Photographic Professionals</label>
+                <input type="text" id="name" disabled>
+            </div>
 
-<div id="section2">
-        <h1 id="sticy2">SECTION 2</h1>
-        <label for="name11">GROOM</label>
-        <input type="text" name="Name" id="name11" autocomplete="name11" disabled>
-        <br>
-        <label for="name12">BRIDE</label>
-        <input type="text" name="Name" id="name12" autocomplete="name12" disabled>
-        <br>
-        <label for="name13">DATE</label>
-        <input type="text" name="Name" id="name13" autocomplete="name13" disabled>
-        <br>
-        <label for="name14">VENUE</label>
-        <input type="text" name="Name" id="name14" autocomplete="name14" disabled>
-        <br>
-        <label for="name15">EXTRA1</label>
-        <input type="text" name="Name" id="name15" autocomplete="name15" disabled>
-        <br>
-        <label for="name16">EXTRA2</label>
-        <input type="text" name="Name" id="name16" autocomplete="name16" disabled>
-        <br>
-        <label for="name17">EXTRA3</label>
-        <input type="text" name="Name" id="name17" autocomplete="name17" disabled>
-        <br>
-        <label for="name18">PACKAGE AMOUNT</label>
-        <input type="text" name="Name" id="name18" autocomplete="name18" disabled>
-        <br>
-        <label for="name19">WRITE INCLUDING GST</label>
-        <input type="text" name="Name" id="name19" autocomplete="name19" placeholder="ENTER /- (including GST)" value="/- (including GST)" disabled>
-        <br>
-        <label for="name20">AFTER DISCOUNT line</label>
-        <input type="text" name="Name" id="name20" autocomplete="name20" placeholder="ENTER After Discount Price - " value="After Discount Price - " disabled>
-        <br>
-        <label for="name21">AFTER DISCOUNT AMOUNT</label>
-        <input type="text" name="Name" id="name21" autocomplete="name21" disabled>
-        <br>
-        <label for="name22">ADVANCE AMOUNT</label>
-        <input type="text" name="Name" id="name22" autocomplete="name22" disabled>
-        <br>
-        <label for="name23">BALANCE AMOUNT</label>
-        <input type="text" name="Name" id="name23" autocomplete="name23" placeholder="NO NEED TO WRITE" disabled>
-        <br>
-        <div id="getpdfbutton">
-        <button id="submit" class="glow-on-hover" disabled>Get PDF</button>
-        </div>
-        </div>
+            <div class="reveal-item">
+                <label for="name">Regular Photographic Professionals</label>
+                <input type="text" name="Name" id="name" autocomplete="name" disabled>
+            </div>
+
+            <div class="reveal-item">
+                <label for="name2">Regular Videographic Professionals</label>
+                <input type="text" name="Name" id="name2" autocomplete="name2" disabled>
+            </div>
+
+            <div class="reveal-item">
+                <label for="name3">Candid Photographic Professionals</label>
+                <input type="text" name="Name" id="name3" autocomplete="name3" disabled>
+            </div>
+
+            <div class="reveal-item">
+                <label for="name4">Cinematographic Professionals</label>
+                <input type="text" name="Name" id="name4" autocomplete="name4" disabled>
+            </div>
+
+            <div class="reveal-item">
+                <label for="name5" id="label-name5">Dronographic Professionals</label>
+                <input type="text" name="Name" id="name5" autocomplete="name5" disabled>
+            </div>
+
+            <div class="reveal-item">
+                <label for="name6">Cinematic Teaser</label>
+                <input type="text" name="Name" id="name6" autocomplete="name6" disabled>
+            </div>
+
+            <div class="reveal-item">
+                <label for="name7">Cinematic Highlight</label>
+                <input type="text" name="Name" id="name7" autocomplete="name7" disabled>
+            </div>
+
+            <div class="reveal-item">
+                <label for="name8">Ultra Creative Potraits</label>
+                <input type="text" name="Name" id="name8" autocomplete="name8" disabled>
+            </div>
+
+            <div class="reveal-item">
+                <label for="name9">Family Picture</label>
+                <input type="text" name="Name" id="name9" autocomplete="name9" disabled>
+            </div>
+
+            <div class="reveal-item">
+                <label for="name10">Customize Handmade Album</label>
+                <input type="text" name="Name" id="name10" autocomplete="name10" disabled>
+            </div>
+
+            <br>
+            <br>
+
+
+            <div id="section2">
+                <h1 id="sticy2">SECTION 2</h1>
+
+                <div class="reveal-item">
+                    <label for="name11">GROOM</label>
+                    <input type="text" name="Name" id="name11" autocomplete="name11" disabled>
+                </div>
+
+                <div class="reveal-item">
+                    <label for="name12">BRIDE</label>
+                    <input type="text" name="Name" id="name12" autocomplete="name12" disabled>
+                </div>
+
+                <div class="reveal-item">
+                    <label for="name13">DATE</label>
+                    <input type="text" name="Name" id="name13" autocomplete="name13" disabled>
+                </div>
+
+                <div class="reveal-item">
+                    <label for="name14">VENUE</label>
+                    <input type="text" name="Name" id="name14" autocomplete="name14" disabled>
+                </div>
+
+                <div class="reveal-item">
+                    <label for="name15">EXTRA1</label>
+                    <input type="text" name="Name" id="name15" autocomplete="name15" disabled>
+                </div>
+
+                <div class="reveal-item">
+                    <label for="name16">EXTRA2</label>
+                    <input type="text" name="Name" id="name16" autocomplete="name16" disabled>
+                </div>
+
+                <div class="reveal-item">
+                    <label for="name17">EXTRA3</label>
+                    <input type="text" name="Name" id="name17" autocomplete="name17" disabled>
+                </div>
+
+                <div class="reveal-item">
+                    <label for="name18">PACKAGE AMOUNT</label>
+                    <input type="text" name="Name" id="name18" autocomplete="name18" disabled>
+                </div>
+
+                <div class="reveal-item">
+                    <label for="name19">WRITE INCLUDING GST</label>
+                    <input type="text" name="Name" id="name19" autocomplete="name19"
+                        placeholder="ENTER /- (including GST)" value="/- (including GST)" disabled>
+                </div>
+
+                <div class="reveal-item">
+                    <label for="name20">AFTER DISCOUNT line</label>
+                    <input type="text" name="Name" id="name20" autocomplete="name20"
+                        placeholder="ENTER After Discount Price - " value="After Discount Price - " disabled>
+                </div>
+
+                <div class="reveal-item">
+                    <label for="name21">AFTER DISCOUNT AMOUNT</label>
+                    <input type="text" name="Name" id="name21" autocomplete="name21" disabled>
+                </div>
+
+                <div class="reveal-item">
+                    <label for="name22">ADVANCE AMOUNT</label>
+                    <input type="text" name="Name" id="name22" autocomplete="name22" disabled>
+                </div>
+
+                <div class="reveal-item">
+                    <label for="name23">BALANCE AMOUNT</label>
+                    <input type="text" name="Name" id="name23" autocomplete="name23" placeholder="NO NEED TO WRITE"
+                        disabled>
+                </div>
+
+                <div class="reveal-item" id="getpdfbutton">
+                    <button id="submit" class="glow-on-hover" disabled>Get PDF</button>
+                </div>
+            </div>
+
     </main>
 </body>
+<script src="logic.js"></script>
+
 </html>
